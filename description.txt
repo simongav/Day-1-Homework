@@ -1,0 +1,1 @@
+# This file seeks to identify all expenditure in food and beverage above 100 dollars by the US House of Representatives
