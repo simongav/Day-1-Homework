@@ -15,6 +15,6 @@ writer.writeheader()
 # loop through the rows in the original csv
 for row in reader:
 	# filter rows
-    if row['PURPOSE'] == 'WATER' and float(row['AMOUNT']) > 1000:
+    if row['PURPOSE'] == 'FOOD & BEVERAGE' and float(row['AMOUNT']) > 100:
     	# write rows that match above filter
         writer.writerow(row)
